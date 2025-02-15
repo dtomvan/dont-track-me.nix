@@ -23,12 +23,12 @@ a `trackers/*.nix`, writing 2 lines of nix, and adding it to the flake.
 
 ## Usage
 Just add the following input to your `flake.nix`:
-```
+```nix
 inputs.dont-track-me.url = "github:dtomvan/dont-track-me";
 ```
 
 And in your `home.nix`, add:
-```
+```nix
 dont-track-me = {
   enable = true;
   # enableAll = true; # enable everything under `trackers`
