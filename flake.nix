@@ -10,7 +10,10 @@
       cfg = config.dont-track-me;
     in {
       imports = [
+        ./trackers/awssam.nix
+        ./trackers/azure.nix
         ./trackers/brew.nix
+        ./trackers/dotnet.nix
         ./trackers/gatsby.nix
         ./trackers/netlify.nix
         ./trackers/syncthing.nix
