@@ -6,7 +6,9 @@ command-line trackers as possible.
 
 It was made in-reply-to Domen Kožar, maintainer of `devenv`, [removing the DO_NOT_TRACK variable from nixpkgs' devenv package](https://github.com/NixOS/nixpkgs/pull/381981).
 
-> [!warn] Proof-of-concept software, don't expect anything from this yet
+> [!WARNING]
+> Proof-of-concept software, don't expect anything from this yet.
+> 
 > Currently, it implements the everything listed on [Console DNT](https://consoledonottrack.com/),
 > except for `gcloud config set disable_usage_reporting true` because for some
 > reason `home-manager` doesn't have a unified way to hook your shell profile.
