@@ -14,6 +14,7 @@
         ./trackers/azure.nix
         ./trackers/brew.nix
         ./trackers/dotnet.nix
+        ./trackers/flox.nix
         ./trackers/gatsby.nix
         ./trackers/netlify.nix
         ./trackers/syncthing.nix
